@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>[SOLUTIONNAME].FNA</AssemblyName>
+    <RootNamespace>[SOLUTIONNAME]</RootNamespace>
+    <Platforms>x64</Platforms>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <RepositoryUrl>https://github.com/vonderborch/[SOLUTIONNAME]</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/vonderborch/[SOLUTIONNAME]</PackageProjectUrl>
+    <Authors>[AUTHOR]</Authors>
+    <Company>[COMPANY]</Company>
+    <PackageTags>[TAGS]</PackageTags>
+    <Description>[DESCRIPTION]</Description>
+    <PackageLicenseExpression>[LICENSE]</PackageLicenseExpression>
+    <Version>[VERSION]</Version>
+    <FileVersion>[VERSION]</FileVersion>
+    <AssemblyVersion>[VERSION]</AssemblyVersion>
+    <ProduceReferenceAssembly>False</ProduceReferenceAssembly>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <DefineConstants>TRACE;FNA</DefineConstants>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <DefineConstants>FNA</DefineConstants>
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>..\..\release\FNA\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="..\fnalibs\x64\FAudio.dll" Link="FAudio.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\fnalibs\x64\FNA3D.dll" Link="FNA3D.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\fnalibs\x64\libtheorafile.dll" Link="libtheorafile.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\fnalibs\x64\SDL2.dll" Link="SDL2.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FNA\FNA.Core.csproj" PrivateAssets="All" />
+  </ItemGroup>
+  <Import Project="..\..\[SOLUTIONNAME].Shared\[SOLUTIONNAME].Shared.projitems" Label="Shared" />
+</Project>
