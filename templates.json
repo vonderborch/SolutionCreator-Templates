@@ -1,17 +1,17 @@
 [
   {
-    "name": "Velentr.BASE",
-    "version": "2.2",
-    "file": "https://github.com/vonderborch/SolutionCreator-Templates/blob/main/TEMPLATES/Velentr.BASE.zip"
+    "Name": "Velentr.BASE",
+    "Version": "2.2",
+    "File": "https://github.com/vonderborch/SolutionCreator-Templates/blob/main/TEMPLATES/Velentr.BASE.zip"
   },
   {
-    "name": "Velentr.BASE_DUAL_SUPPORT",
-    "version": "2.2",
-    "file": "https://github.com/vonderborch/SolutionCreator-Templates/blob/main/TEMPLATES/Velentr.BASE_DUAL_SUPPORT.zip"
+    "Name": "Velentr.BASE_DUAL_SUPPORT",
+    "Version": "2.2",
+    "File": "https://github.com/vonderborch/SolutionCreator-Templates/blob/main/TEMPLATES/Velentr.BASE_DUAL_SUPPORT.zip"
   },
   {
-    "name": "Velentr.GENERIC_DUAL_SUPPORT",
-    "version": "2.2",
-    "file": "https://github.com/vonderborch/SolutionCreator-Templates/blob/main/TEMPLATES/Velentr.GENERIC_DUAL_SUPPORT.zip"
+    "Name": "Velentr.GENERIC_DUAL_SUPPORT",
+    "Version": "2.2",
+    "File": "https://github.com/vonderborch/SolutionCreator-Templates/blob/main/TEMPLATES/Velentr.GENERIC_DUAL_SUPPORT.zip"
   }
 ]
