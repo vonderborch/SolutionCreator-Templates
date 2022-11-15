@@ -1,2 +1,2 @@
 # SolutionCreator-Templates
- Templates for the SolutionCreator
+ Default template repository for the [SolutionCreator](https://github.com/vonderborch/SolutionCreator) application
