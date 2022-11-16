@@ -7,3 +7,6 @@
 [submodule "TEMPLATES_BASE/Velentr.GENERIC_DUAL_SUPPORT/FNA/FNA"]
 	path = TEMPLATES_BASE/Velentr.GENERIC_DUAL_SUPPORT/FNA/FNA
 	url = https://github.com/FNA-XNA/FNA.git
+[submodule "TEMPLATES_BASE/Velentr.DUAL_SUPPORT/dependencies/FNA"]
+	path = TEMPLATES_BASE/Velentr.DUAL_SUPPORT/dependencies/FNA
+	url = https://github.com/FNA-XNA/FNA.git

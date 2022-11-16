@@ -10,8 +10,8 @@
     "File": "./TEMPLATES/Velentr.DUAL_SUPPORT.zip"
   },
   {
-    "Name": "Velentr.GENERIC_DUAL_SUPPORT",
+    "Name": "Velentr.DUAL_SUPPORT_WITH_GENERIC",
     "Version": "3.0",
-    "File": "./TEMPLATES/Velentr.GENERIC_DUAL_SUPPORT.zip"
+    "File": "./TEMPLATES/Velentr.DUAL_SUPPORT_WITH_GENERIC.zip"
   }
 ]

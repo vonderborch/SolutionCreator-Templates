@@ -1,26 +1,32 @@
 {
-  "Name": "Velentr.BASE",
-  "TemplateAuthor": "Christian Webber",
-  "TemplateVersion": "2.2",
-  "Description": "A generic library that doesn't require specific support for FNA or Monogame.",
-  
+  "AskForNugetInfo": true,
+  "CleanupDirectories": [],
+  "Commands": [],
+  "CommandsRequireGit": true,
   "DefaultAuthor": "<CurrentFullName>",
   "DefaultCompanyName": "<CurrentFullName>",
   "DefaultName": "GenericLibrary",
   "DefaultNameFormat": "<ParentDir>.",
-
-  "AskForNugetInfo": true,
   "DefaultNugetDescription": "A library",
-  "DefaultNugetTags": "",
   "DefaultNugetLicense": "MIT",
-  
-  "Guids": 5,
-  "ExcludedDirectories": [".git", ".vs"],
-  "ReplaceText": {},
-  "CleanupDirectories": [],
+  "DefaultNugetTags": "Velentr,",
+  "Description": "A generic library that doesn't require specific support for FNA or Monogame.",
+  "ExcludedDirectories": [
+    ".git",
+    ".vs"
+  ],
+  "FileName": "",
+  "FileNameNoExtension": "",
+  "FilePath": "",
+  "Guids": 9,
+  "Instructions": [],
+  "Name": "Velentr.BASE",
+  "PathLength": 0,
   "RenameOnlyDirectories": [],
   "RenameOnlyFiles": [],
-  "CommandsRequireGit": true,
-  "Commands": [],
-  "Instructions": []
+  "ReplaceText": {
+    "Velentr.BASE": "<ProjectName>"
+  },
+  "TemplateAuthor": "Christian Webber",
+  "TemplateVersion": "3.0"
 }

@@ -1,26 +1,44 @@
 {
-  "Name": "Velentr.DUAL_SUPPORT",
-  "TemplateAuthor": "Christian Webber",
-  "TemplateVersion": "2.2",
-  "Description": "A library with individual implementations for FNA and Monogame.",
-  
+  "AskForNugetInfo": true,
+  "CleanupDirectories": [],
+  "Commands": [
+    ".\\install_fna.bat"
+  ],
+  "CommandsRequireGit": true,
   "DefaultAuthor": "<CurrentFullName>",
   "DefaultCompanyName": "<CurrentFullName>",
   "DefaultName": "GenericLibrary",
   "DefaultNameFormat": "<ParentDir>.",
-
-  "AskForNugetInfo": true,
   "DefaultNugetDescription": "A library",
-  "DefaultNugetTags": "",
   "DefaultNugetLicense": "MIT",
-  
-  "Guids": 11,
-  "ExcludedDirectories": [".git", ".vs"],
-  "ReplaceText": {"Velentr.BASE": "<ProjectName>", "Velentr.DUAL_SUPPORT": "<ProjectName>"},
-  "CleanupDirectories": [],
-  "RenameOnlyDirectories": ["Velentr.BASE.FNA.DevEnv", "Velentr.BASE.Monogame.DevEnv", "fna_updater"],
-  "RenameOnlyFiles": ["install_fna.bat", "update_fna.bat"],
-  "CommandsRequireGit": true,
-  "Commands": [".\\install_fna.bat"],
-  "Instructions": ["The Monogame.DevEnv and FNA.DevEnv projects have not been linked fully due to unresolved issues automating this step. Please do so when opening the solution for the first time!", "To update FNA, run the `update_fna.bat` script"]
+  "DefaultNugetTags": "Velentr,",
+  "Description": "A library with individual implementations for FNA and Monogame.",
+  "ExcludedDirectories": [
+    ".git",
+    ".vs"
+  ],
+  "FileName": "",
+  "FileNameNoExtension": "",
+  "FilePath": "",
+  "Guids": 13,
+  "Instructions": [
+    "The Velentr.DevEnv.FNA and Velentr.DevEnv.Monogame projects have not been linked fully due to unresolved issues automating this step. Please do so when opening the solution for the first time!",
+    "To update FNA, run the `update_fna.bat` script"
+  ],
+  "Name": "Velentr.DUAL_SUPPORT",
+  "PathLength": 0,
+  "RenameOnlyDirectories": [
+    "Velentr.DevEnv.FNA",
+    "Velentr.DevEnv.Monogame",
+    "fna_updater"
+  ],
+  "RenameOnlyFiles": [
+    "install_fna.bat",
+    "update_fna.bat"
+  ],
+  "ReplaceText": {
+    "Velentr.DUAL_SUPPORT": "<ProjectName>"
+  },
+  "TemplateAuthor": "Christian Webber",
+  "TemplateVersion": "3.0"
 }
