@@ -10,3 +10,9 @@
 [submodule "TEMPLATES_BASE/Velentr.DUAL_SUPPORT/dependencies/FNA"]
 	path = TEMPLATES_BASE/Velentr.DUAL_SUPPORT/dependencies/FNA
 	url = https://github.com/FNA-XNA/FNA.git
+[submodule "SOLUTION_CREATOR_APP/TEST/TEST.dual/dependencies/FNA"]
+	path = SOLUTION_CREATOR_APP/TEST/TEST.dual/dependencies/FNA
+	url = https://github.com/FNA-XNA/FNA.git
+[submodule "SOLUTION_CREATOR_APP/TEST/TEST.generic/dependencies/FNA"]
+	path = SOLUTION_CREATOR_APP/TEST/TEST.generic/dependencies/FNA
+	url = https://github.com/FNA-XNA/FNA.git

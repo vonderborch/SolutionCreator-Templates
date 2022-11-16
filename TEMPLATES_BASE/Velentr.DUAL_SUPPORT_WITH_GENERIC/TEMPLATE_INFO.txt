@@ -22,7 +22,7 @@
   "FilePath": "",
   "Guids": 15,
   "Instructions": [
-    "The Velentr.DevEnv.FNA and Velentr.DevEnv.Monogame projects have not been linked fully due to unresolved issues automating this step. Please do so when opening the solution for the first time!",
+    "The Velentr.DevEnv.FNA, Velentr.DevEnv.Generic, and Velentr.DevEnv.Monogame projects have not been linked fully due to unresolved issues automating this step. Please do so when opening the solution for the first time!",
     "To update FNA, run the `update_fna.bat` script"
   ],
   "Name": "Velentr.DUAL_SUPPORT_WITH_GENERIC",
@@ -30,6 +30,7 @@
   "RenameOnlyDirectories": [
     "Velentr.DevEnv.FNA",
     "Velentr.DevEnv.Monogame",
+    "Velentr.DevEnv.Generic",
     "fna_updater"
   ],
   "RenameOnlyFiles": [
@@ -38,7 +39,8 @@
   ],
   "ReplaceText": {
     "Velentr.BASE": "<ProjectName>",
-    "Velentr.DUAL_SUPPORT": "<ProjectName>"
+    "Velentr.DUAL_SUPPORT": "<ProjectName>",
+    "Velentr.DUAL_SUPPORT_WITH_GENERIC": "<ProjectName>"
   },
   "TemplateAuthor": "Christian Webber",
   "TemplateVersion": "3.0"
