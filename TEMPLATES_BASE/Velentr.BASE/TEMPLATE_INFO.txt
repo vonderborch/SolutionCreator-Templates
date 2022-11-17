@@ -30,5 +30,5 @@
     "Velentr.BASE": "<ProjectName>"
   },
   "TemplateAuthor": "Christian Webber",
-  "TemplateVersion": "3.6"
+  "TemplateVersion": "3.7"
 }

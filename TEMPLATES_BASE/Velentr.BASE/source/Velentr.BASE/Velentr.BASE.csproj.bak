@@ -24,7 +24,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <DefineConstants></DefineConstants>
-    <OutputPath>..\..\release\</OutputPath>
+    <OutputPath>..\release\</OutputPath>
     <DebugType>embedded</DebugType>
   </PropertyGroup>
   <ItemGroup>
