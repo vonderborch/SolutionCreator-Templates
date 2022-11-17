@@ -34,11 +34,12 @@
   ],
   "RenameOnlyFiles": [
     "install_fna.bat",
-    "update_fna.bat"
+    "update_fna.bat",
+    "logo.png"
   ],
   "ReplaceText": {
     "Velentr.DUAL_SUPPORT": "<ProjectName>"
   },
   "TemplateAuthor": "Christian Webber",
-  "TemplateVersion": "3.5"
+  "TemplateVersion": "3.6"
 }
