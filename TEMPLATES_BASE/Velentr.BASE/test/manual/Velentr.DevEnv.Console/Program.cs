@@ -1,6 +1,6 @@
 using System;
 
-namespace Velentr.BASE.dev
+namespace Velentr.DevEnv.Console
 {
     class Program
     {

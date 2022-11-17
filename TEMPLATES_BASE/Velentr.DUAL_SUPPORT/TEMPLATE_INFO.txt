@@ -41,5 +41,5 @@
     "Velentr.DUAL_SUPPORT": "<ProjectName>"
   },
   "TemplateAuthor": "Christian Webber",
-  "TemplateVersion": "3.6"
+  "TemplateVersion": "3.8"
 }

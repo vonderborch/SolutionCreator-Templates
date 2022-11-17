@@ -18,7 +18,7 @@
   "FileName": "",
   "FileNameNoExtension": "",
   "FilePath": "",
-  "Guids": 9,
+  "Guids": 10,
   "Instructions": [],
   "Name": "Velentr.BASE",
   "PathLength": 0,
@@ -30,5 +30,5 @@
     "Velentr.BASE": "<ProjectName>"
   },
   "TemplateAuthor": "Christian Webber",
-  "TemplateVersion": "3.7"
+  "TemplateVersion": "3.8"
 }
