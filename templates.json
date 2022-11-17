@@ -6,12 +6,12 @@
   },
   {
     "Name": "Velentr.DUAL_SUPPORT",
-    "Version": "3.0",
+    "Version": "3.2",
     "File": "./TEMPLATES/Velentr.DUAL_SUPPORT.zip"
   },
   {
     "Name": "Velentr.DUAL_SUPPORT_WITH_GENERIC",
-    "Version": "3.0",
+    "Version": "3.2",
     "File": "./TEMPLATES/Velentr.DUAL_SUPPORT_WITH_GENERIC.zip"
   }
 ]
