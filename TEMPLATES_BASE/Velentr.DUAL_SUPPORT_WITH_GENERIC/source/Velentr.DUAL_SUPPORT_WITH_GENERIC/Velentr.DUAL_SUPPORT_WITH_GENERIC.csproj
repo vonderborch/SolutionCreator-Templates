@@ -22,7 +22,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <DefineConstants>GENERIC</DefineConstants>
-    <OutputPath>..\release\</OutputPath>
+    <OutputPath>..\..\release\generic\</OutputPath>
     <DebugType>embedded</DebugType>
   </PropertyGroup>
 
