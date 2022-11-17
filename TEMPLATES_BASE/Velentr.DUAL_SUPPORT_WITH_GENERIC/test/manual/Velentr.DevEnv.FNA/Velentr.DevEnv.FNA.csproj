@@ -25,16 +25,16 @@
     <None Remove="Icon.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="..\..\..\dependencies\fnalibs\x64\FAudio.dll" Link="FAudio.dll">
+    <Content Include="..\..\..\FNA\fnalibs\x64\FAudio.dll" Link="FAudio.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\..\..\dependencies\fnalibs\x64\FNA3D.dll" Link="FNA3D.dll">
+    <Content Include="..\..\..\FNA\fnalibs\x64\FNA3D.dll" Link="FNA3D.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\..\..\dependencies\fnalibs\x64\libtheorafile.dll" Link="libtheorafile.dll">
+    <Content Include="..\..\..\FNA\fnalibs\x64\libtheorafile.dll" Link="libtheorafile.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\..\..\dependencies\fnalibs\x64\SDL2.dll" Link="SDL2.dll">
+    <Content Include="..\..\..\FNA\fnalibs\x64\SDL2.dll" Link="SDL2.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
@@ -46,7 +46,7 @@
     <PackageReference Include="Velentr.Debugging" Version="1.0.0" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\dependencies\FNA\FNA.Core.csproj" />
+    <ProjectReference Include="..\..\..\FNA\FNA\FNA.Core.csproj" />
   </ItemGroup>
   <ItemGroup>
     <TrimmerRootAssembly Include="Microsoft.Xna.Framework.Content.ContentTypeReader" Visible="false" />
