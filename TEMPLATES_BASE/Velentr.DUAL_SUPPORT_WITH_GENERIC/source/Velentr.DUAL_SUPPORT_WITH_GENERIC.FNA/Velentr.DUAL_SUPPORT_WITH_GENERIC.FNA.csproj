@@ -18,6 +18,8 @@
     <AssemblyVersion>1.0.0</AssemblyVersion>
     <ProduceReferenceAssembly>False</ProduceReferenceAssembly>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <PackageIcon>logo.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
   <ItemGroup>
     <Content Include="..\..\FNA\fnalibs\x64\FAudio.dll" Link="FAudio.dll">
@@ -32,6 +34,16 @@
     <Content Include="..\..\FNA\fnalibs\x64\SDL2.dll" Link="SDL2.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\logo.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\FNA\FNA\FNA.Core.csproj" />
