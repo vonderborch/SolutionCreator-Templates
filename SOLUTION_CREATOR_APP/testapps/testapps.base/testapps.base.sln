@@ -1,0 +1,64 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{GUID00}"
+	ProjectSection(SolutionItems) = preProject
+		CODEOWNERS = CODEOWNERS
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source", "source", "{a07dd5e1-d4c4-44cd-859e-ae90b4c07b3a}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{c8ebf4c6-cee6-4044-9883-a3f991495368}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "automated", "automated", "{19c9fd93-7f8f-4f47-9061-4d96e0251514}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "manual", "manual", "{f3462503-3601-40d0-ad20-e47c7d45b263}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "testapps.base", "source\testapps.base\testapps.base.csproj", "{f6184876-272b-4b42-b587-36f19aa7ec43}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "testapps.base.Test", "test\automated\testapps.base.Test\testapps.base.Test.csproj", "{ad7f7ae4-18e8-435b-9cc0-50d35577f8e7}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Velentr.DevEnv", "test\manual\Velentr.DevEnv\Velentr.DevEnv.shproj", "{b64627c3-cf6f-4632-88df-bea179881891}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Velentr.DevEnv.Console", "test\manual\Velentr.DevEnv.Console\Velentr.DevEnv.Console.csproj", "{9cffc0a5-2716-43de-8113-8354d146f7d2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{f6184876-272b-4b42-b587-36f19aa7ec43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{f6184876-272b-4b42-b587-36f19aa7ec43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{f6184876-272b-4b42-b587-36f19aa7ec43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{f6184876-272b-4b42-b587-36f19aa7ec43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ad7f7ae4-18e8-435b-9cc0-50d35577f8e7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ad7f7ae4-18e8-435b-9cc0-50d35577f8e7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ad7f7ae4-18e8-435b-9cc0-50d35577f8e7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ad7f7ae4-18e8-435b-9cc0-50d35577f8e7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9cffc0a5-2716-43de-8113-8354d146f7d2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9cffc0a5-2716-43de-8113-8354d146f7d2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9cffc0a5-2716-43de-8113-8354d146f7d2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9cffc0a5-2716-43de-8113-8354d146f7d2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{19c9fd93-7f8f-4f47-9061-4d96e0251514} = {c8ebf4c6-cee6-4044-9883-a3f991495368}
+		{f3462503-3601-40d0-ad20-e47c7d45b263} = {c8ebf4c6-cee6-4044-9883-a3f991495368}
+		{f6184876-272b-4b42-b587-36f19aa7ec43} = {a07dd5e1-d4c4-44cd-859e-ae90b4c07b3a}
+		{ad7f7ae4-18e8-435b-9cc0-50d35577f8e7} = {19c9fd93-7f8f-4f47-9061-4d96e0251514}
+		{b64627c3-cf6f-4632-88df-bea179881891} = {f3462503-3601-40d0-ad20-e47c7d45b263}
+		{9cffc0a5-2716-43de-8113-8354d146f7d2} = {f3462503-3601-40d0-ad20-e47c7d45b263}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {f6184876-272b-4b42-b587-36f19aa7ec43}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		test\manual\Velentr.DevEnv\Velentr.DevEnv.projitems*{227895c9-a4fd-43ed-807b-87af42d69a34}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal

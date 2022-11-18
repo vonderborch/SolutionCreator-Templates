@@ -6,7 +6,7 @@ namespace Velentr.DevEnv
     {
         static void Main()
         {
-            using var game = new GamePerformanceWrapper(new Game1(), "Velentr.BASE");
+            using var game = new GamePerformanceWrapper(new Game1(), "Velentr.DUAL_SUPPORT_WITH_GENERIC");
             game.Run();
         }
     }
